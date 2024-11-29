@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.form-banner img{
+height: 100%;
+width: 100%;
+}
+
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* for spinner  */
+#loader{
+  background: #eaeaea url(../public/assets/images/loading-spinner.webp) no-repeat center center;
+  background-size: 40%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+/* for navbar */
+.navbar{
+  background-color: black !important;
+  color: white !important;
+  height: 80px;
+
+}
+
+.icon{
+  font-size: 50px;
+}
+
+.texx{
+  font-size: 20px;
+}
+
+
+.nav-link,.navbar-brand{
+  background-color: black !important;
+  color: white !important;
+}
+
+.container h4{
+  background-color: #059212;
+  color: #ffffff;
+  width: 95%;
+  border-radius: 15px;
+  text-align: center;
+  transition: 0.8s;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 10px 0;
+}
+
+.container h4:active{
+  transform:scale(0.8);
+}
+
+table{
+  text-align: center;
+}
+
+.donar-data{
+  margin-top: 50px ;
+}
+
+.donar-heading{
+  background-color: #FFDBB5;
+  color: #603F26;
+  text-align: center;
+  padding: 30px 0 30px 0;
+}
+
+.hospital-heading{
+  background-color: #A02334;
+  color: #fff;
+  text-align: center;
+  padding: 30px 0 30px 0;
+}
+
+.btn-primary{
+  background-color: #059212;
+  color: #ffffff;
+  
+}
+
+.btn-primary:hover{
+  background-color: #ffffff;
+  color: #059212;
+  border: 2px solid #059212;
+}
+
+.analytics-container{
+  width: 85%;
+  margin: 50px auto 0 auto;
+}
+
+.analytics-card{
+  transition: 0.2s ease-in-out;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.analytics-card h1{
+  border: 0.5px solid black;
+  border-radius: 10px;
+}
+
+.analytics-card:hover{
+  transform: scale(0.95);
+}
+
+.analytics-card .card-footer{
+  border-radius: 10px;
+}
+
+.deleteIcon{
+  font-size: 15px;
+  transition: 0.8s;
+}
+
+.deleteIcon:active{
+  transform: scale(0.8);
+}
+
+
+
